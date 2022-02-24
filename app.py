@@ -7,7 +7,7 @@ api = Api(app)
 task_model = api.model('Task', { 'task': fields.String('Infor a pending task.')} )
 
 tasks = []
-garbage_out = {'task':'Take the garbage collector out.'}
+garbage_out = {'task':'Take the garbage collector out!'}
 tasks.append(garbage_out)
 
 @api.route('/tasks')
